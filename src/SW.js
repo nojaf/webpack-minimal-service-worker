@@ -4,7 +4,7 @@ self.addEventListener('install',(installEvent) => {
 });
 
 self.addEventListener('message', (ev) => {
-    console.log(`Receive message in worker: ${JSON.stringify(ev.data)}`);
+    console.log(`Receive message in worker : ${JSON.stringify(ev.data)}`);
 });
 
 self.addEventListener('activate', (activateEvent) => {
